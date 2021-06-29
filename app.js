@@ -5,7 +5,7 @@
   //   for each answer, check if the user entered a correct value
   //   track the number of correct answers
   //   at the end of the quiz, update the results section with the number of correct answers
-import { isYes } from './utils.js';
+import { countsAsAYes } from './utils.js';
 
 const quizButton = document.getElementById('quiz-button');
 const results = document.getElementById('quiz-results');
@@ -44,7 +44,7 @@ quizButton.addEventListener('click', () => {
         console.log('score after checking ans3', score);
         
         console.log('final score', score);
-        results.textContent = `${name}, you got ${score} right!`;
+        results.textContent = `Okay ${name}, you got ${score}/3 right!`;
     } else {
         console.log('user cancelled');
     }

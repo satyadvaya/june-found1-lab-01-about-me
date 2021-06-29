@@ -1,4 +1,4 @@
-export function isYes(word){
+export function countsAsAYes(word){
     // logic to determine if user input should count as a yes
     // return true / false
     word = word.toLowerCase();

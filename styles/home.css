@@ -3,3 +3,11 @@ img {
     height: 100px;
     border-radius: 50%;
 }
+
+ul {
+    list-style: square;
+}
+
+ol {
+    list-style: lower-latin;
+}
