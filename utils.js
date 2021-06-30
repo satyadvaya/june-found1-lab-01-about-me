@@ -3,7 +3,7 @@ export function countsAsAYes(word){
     // return true / false
     word = word.toLowerCase();
 
-    if (word === 'yes' || word === 'y'){
+    if (word === 'yes' || word === 'yep' || word === 'y') {
         return true;
     } else {
         return false;
