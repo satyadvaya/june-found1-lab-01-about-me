@@ -16,9 +16,9 @@ quizButton.addEventListener('click', () => {
 
     if (confirmed){
         const name = prompt('What is your name?');
-        const ans1 = prompt('Do I lack emotional control?');
-        const ans2 = prompt('Do I operate under the "eye-for-an-eye" principle or retribution?');
-        const ans3 = prompt('Do you expect that I might benefit from several solid years of intense therapy?');
+        const ans1 = prompt(`Hey ${name}, do I lack emotional control?`);
+        const ans2 = prompt(`Hey ${name}, do I operate under the "eye-for-an-eye" principle or retribution?`);
+        const ans3 = prompt(`Hey ${name}, do you expect that I might benefit from several solid years of intense therapy?`);
         console.log(name, ans1, ans2, ans3);
         
         let score = 0;

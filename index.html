@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/home.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Goblin+One&display=swap" rel="stylesheet">
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Document</title>
@@ -15,53 +20,88 @@
 <body>
     <header>
         <div class="gutter-right logo">
-            <img src="assets/big-logo.png" />
+            <img src="assets/big-logo.png"/>
+            <h1 id="header-id">
+                I'm "Rumples"
+            </h1>
         </div>
     </header>
 
-    <main>
-        <section>
-            <h1>I'm "Rumples"</h1>
-            <img src="./assets/rumples.jpeg" alt="Rumpelstiltskin"/>
-            <p> Hello there, my given name is Rumplestiltskin, but I commonly introduce myself as "Rumples," since most folks have trouble pronouncing the former.
-            </p>
-        </section>
+    <main id="main-id">
+        <div id="container">
+            <section>
+                <img src="./assets/rumples.jpeg" alt="Rumpelstiltskin"/>
+                <p>
+                    Hello there, my given name is Rumplestiltskin, but I commonly introduce myself as "Rumples," since most folks have trouble pronouncing the former.
+                </p>
+            </section>
 
-        <section>
-            <h2>Interested in learning a little bit about me?</h2>
-            <p>I'm a nasty little gobblin dreamed up by a pair of sickos who collectively go by the name of Brothers Grimm.
-            </p>
-        </section>
+            <section>
+                <h2>
+                    Interested in learning a little bit about me?
+                </h2>
+                <p>
+                    I'm a nasty little gobblin dreamed up by a pair of sickos who collectively go by the name of Brothers Grimm.
+                </p>
+            </section>
 
-        <section>
-            <h2>A few of my less endearing traits are the following:</h2>
-            <ul>
-                <li>I've got a wicked temper;</li>
-                <li>I'm as vindictive as all get-out;</li>
-                <li>And I have an odd penchant for absconding with babies for some reason — I've clearly got issues ...</li>
-            </ul>
-        </section>
+            <section>
+                <h2>
+                    A few of my less endearing traits are the following:
+                </h2>
+                <ul>
+                    <li>
+                        I've got a wicked temper;
+                    </li>
+                    <li>
+                        I'm as vindictive as all get-out;
+                    </li>
+                    <li>
+                        And I have an odd penchant for absconding with babies for some reason — I've clearly got issues ...
+                    </li>
+                </ul>
+            </section>
 
-        <section>
-            <h2>Would you believe that any of the following is even remotely true about my life?</h2>
-            <ol id='ordered-list'>
-                <li>I sneeze blood;</li>
-                <li>I haven't slept in fifteen years;</li>
-                <li>I'm a compulsive liar</li>
-            </ol>
-        </section>
+            <section>
+                <h2>
+                    Would you believe that any of the following is even remotely true about my life?
+                </h2>
+                <ol id="ordered-list">
+                    <li>
+                        I sneeze blood;
+                    </li>
+                    <li>
+                        I haven't slept in fifteen years;
+                    </li>
+                    <li>
+                        I'm a compulsive liar
+                    </li>
+                </ol>
+            </section>
 
-        <section>
-            <h1>Quiz Time!</h1>
-            <button id="quiz-button">Click here to launch quiz!</button>
-            <output id="quiz-results">Take the Quiz and Get a Score!</output>
-        </section>
+            <section>
+                <h2>
+                    Quiz Time!
+                </h2>
+                <div id="quiz-container">
+                    <button id="quiz-button">
+                        Click here to launch quiz!
+                    </button><br>
+                    <output id="quiz-results">
+                        Take My Quiz and Get Scored!
+                    </output>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
-        <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
+        <div class="copy gutter-right">
+            &copy; 2020 Alchemy Code Lab
+        </div>
     </footer>
 
-    <script type="module" src="./app.js"></script>
+    <script type="module" src="./app.js">
+    </script>
 </body>
 
 </html>

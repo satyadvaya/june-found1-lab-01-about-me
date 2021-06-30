@@ -1,0 +1,76 @@
+/* add main page styles here */
+
+html {
+    background-color: red;
+}
+
+img {
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ul {
+    list-style: square;
+    flex-direction: column;
+    align-items: left;
+    display: flex;
+}
+
+ol {
+    list-style: lower-latin;
+    flex-direction: column;
+    align-items: left;
+    display: flex;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+#ordered-list {
+    list-style: lower-latin;
+    flex-direction: column;
+    align-items: left;
+    display: flex;
+}
+
+#main-id {
+    font-family: 'Goblin One', cursive;
+}
+
+#header-id {
+    font-family: 'Creepster', cursive;
+    font-size: 48px;
+    text-align: center;
+}
+
+#container {
+    border: black;
+    border-style: solid;
+    background-color: lightskyblue;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+}
+
+#quiz-results {
+    font-size: 16px;
+}
+
+#quiz-container {
+    text-align: center;
+}
