@@ -24,21 +24,21 @@ quizButton.addEventListener('click', () => {
         let score = 0;
         
         // NO is the correct answer
-        // !isYes(ans1)
-        // !isYes('adfigjoaidjf')
+        // !countsAsAYes(ans1)
+        // !countsAsAYes('adfigjoaidjf')
         // !false
         // true
-        if (isYes(ans1)) {
+        if (countsAsAYes(ans1)) {
             score ++;
         }
         console.log('score after checking ans1', score);
 
-        if (isYes(ans2)){
+        if (countsAsAYes(ans2)){
             score ++;
         }
         console.log('score after checking ans2', score);
 
-        if (isYes(ans3)){
+        if (countsAsAYes(ans3)){
             score ++;
         }
         console.log('score after checking ans3', score);

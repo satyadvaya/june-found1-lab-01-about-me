@@ -6,8 +6,34 @@ img {
 
 ul {
     list-style: square;
+    flex-direction: column;
+    align-items: left;
+    display: flex;
 }
 
 ol {
     list-style: lower-latin;
+    flex-direction: column;
+    align-items: left;
+    display: flex;
 }
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+/* #ordered-list {
+    list-style: lower-latin;
+    flex-direction: column;
+    align-items: left;
+    display: flex;
+} */
