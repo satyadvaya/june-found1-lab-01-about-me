@@ -33,12 +33,12 @@ html {
 }
 
 p {
-    font-size: 16px;
+    font-size: 12px;
     margin-left: 20px;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -47,6 +47,7 @@ h2 {
     flex-direction: column;
     align-items: left;
     display: flex;
+    font-size: 12px;
 }
 
 #ordered-list {
@@ -54,6 +55,7 @@ h2 {
     flex-direction: column;
     align-items: left;
     display: flex;
+    font-size: 12px;
 }
 
 #quiz-container {
@@ -61,5 +63,5 @@ h2 {
 }
 
 #quiz-results {
-    font-size: 16px;
+    font-size: 14px;
 }
