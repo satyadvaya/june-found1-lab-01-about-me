@@ -1,9 +1,9 @@
-export function countsAsAYes(word){
+export function countsAsAYes(response){
     // logic to determine if user input should count as a yes
     // return true / false
-    word = word.toLowerCase();
+    response = response.toLowerCase();
 
-    if (word === 'yes' || word === 'yep' || word === 'y') {
+    if (response === 'yes' || response === 'yep' || response === 'y') {
         return true;
     } else {
         return false;
