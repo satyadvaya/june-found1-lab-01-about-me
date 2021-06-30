@@ -19,7 +19,7 @@ html {
     border-style: solid;
     background-color: lightskyblue;
     padding: 15px;
-    width: 500px;
+    width: 400px;
     margin: auto;
 }
 
@@ -64,4 +64,5 @@ h2 {
 
 #quiz-results {
     font-size: 14px;
+    color: green;
 }
